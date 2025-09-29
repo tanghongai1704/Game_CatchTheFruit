@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-purple-400 to-blue-400 min-h-screen flex flex-col items-center">
+  <!-- Header -->
+  <div class="bg-white shadow-md rounded-2xl mt-8 p-6 w-11/12 md:w-3/4 text-center">
+    <h1 class="text-3xl font-bold text-purple-600">My Cool Website</h1>
+    <p class="text-gray-600 mt-2">Một tagline hoặc mô tả ngắn</p>
+  </div>
+
+  <!-- Stats Section -->
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 w-11/12 md:w-3/4">
+    <div class="bg-white rounded-2xl shadow-lg p-6 text-center">
+      <p class="text-2xl font-bold">30</p>
+      <p class="text-gray-500">Item A</p>
+    </div>
+    <div class="bg-white rounded-2xl shadow-lg p-6 text-center">
+      <p class="text-2xl font-bold">97.2</p>
+      <p class="text-gray-500">Item B</p>
+    </div>
+    <div class="bg-white rounded-2xl shadow-lg p-6 text-center">
+      <p class="text-2xl font-bold">76.9</p>
+      <p class="text-gray-500">Item C</p>
+    </div>
+  </div>
+
+  <!-- Table Section -->
+  <div class="bg-white shadow-md rounded-2xl mt-8 p-6 w-11/12 md:w-3/4">
+    <table class="w-full text-left border-separate border-spacing-y-2">
+      <thead>
+        <tr class="text-purple-600 font-semibold">
+          <th>#</th>
+          <th>Tên</th>
+          <th>Điểm</th>
+          <th>Trạng thái</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="bg-gray-50 rounded-xl">
+          <td class="p-2">1</td>
+          <td class="p-2">Nhóm A</td>
+          <td class="p-2">97.2</td>
+          <td class="p-2">✅</td>
+        </tr>
+        <tr class="bg-gray-50 rounded-xl">
+          <td class="p-2">2</td>
+          <td class="p-2">Nhóm B</td>
+          <td class="p-2">90.5</td>
+          <td class="p-2">⏳</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
